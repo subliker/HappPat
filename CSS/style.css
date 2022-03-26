@@ -1,0 +1,215 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{width:100vw;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body{
+    overflow: hidden;
+    max-height: 100vh;
+    background: rgb(214,169,4);
+    background: linear-gradient(90deg, rgba(214,169,4,1) 0%, rgba(192,119,10,1) 100%) no-repeat;
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.38) 0px 0px 18px 10px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 10px;
+}
+.LogoTitle{
+    display: flex;
+    align-items: center;
+}
+.Title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navi{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color:black
+}
+.nav:first-child{
+    margin-left: 0;
+}
+.ActiveNav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    padding: 0 4px;
+}
+.PhoneNumber{
+    display: flex;
+    align-items: center;
+}
+.Number{
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+.shop{
+    display: flex;
+    align-items: center;
+}
+.balance{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.main__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+.main__desc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+.mainLeft__button{
+    background: linear-gradient(98.49deg, rgba(255, 61, 61, 0.69) 20.55%, #FF4242 77.04%);
+    box-shadow: 0px 9px 50px rgba(247, 84, 57, 0.95);
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+@media(min-width: 1200px){
+    .header{
+        margin-top: 70px;
+    }
+    .Title{
+        margin-left: 50px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Logo{
+        width: 87.5px;
+        height:91.8px;
+    }
+    .nav{
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 38px;
+    }
+    .Number{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .balance{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__row{
+        display: flex;
+    }
+    .main__left{
+        margin-left: 20px;
+    }
+    .main__title{
+        margin-top: 160px;
+        font-size: 40px;
+        line-height: 49px;
+        width: 420px;
+    }
+    .main__right{
+        margin-top: -370px;
+        width: 857.5px;
+        height: 1282.75px;
+    }
+    .main__desc{
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .mainLeft__button{
+        padding: 18px 8px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+}
+@media(min-width: 360px){
+    .header{
+        margin-top: 70px;
+    }
+    .Title{
+        margin-left: 50px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Logo{
+        width: 87.5px;
+        height:91.8px;
+    }
+    .nav{
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 38px;
+    }
+    .Number{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .balance{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__row{
+        display: flex;
+    }
+    .main__left{
+        margin-left: 20px;
+    }
+    .main__title{
+        margin-top: 160px;
+        font-size: 40px;
+        line-height: 49px;
+        width: 420px;
+    }
+    .main__right{
+        margin-top: -370px;
+        width: 857.5px;
+        height: 1282.75px;
+    }
+    .main__desc{
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .mainLeft__button{
+        padding: 18px 8px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+}
