@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 body{
     overflow-x: hidden;
     max-height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     background: rgb(214,169,4);
     background: linear-gradient(90deg, rgba(214,169,4,1) 0%, rgba(192,119,10,1) 100%);
 
